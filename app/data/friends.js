@@ -1,0 +1,1 @@
+module.exports=[{"name":"first","photo":"first.com","scores":["3"]},{"name":"seccond","photo":"seccond.com","scores":["3"]},{"name":"3","photo":"3","scores":["3"]},{"name":"4","photo":"4","scores":["3"]},{"name":"5","photo":"5","scores":["5"]}]

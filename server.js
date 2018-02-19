@@ -1,8 +1,8 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
-var routes = require('./app/routing/htmlRoutes.js');
-var apiRoutes = require('./app/routing/apiRoutes.js');
+var routes = require('./routing/htmlRoutes.js');
+var apiRoutes = require('./routing/apiRoutes.js');
 
 var app = express();
 var exphbs = require("express-handlebars");

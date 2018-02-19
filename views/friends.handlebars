@@ -1,0 +1,14 @@
+<h1>All friends</h1>
+    <a href="/">Home</a>
+    <ol>
+        {{#each friends}}
+            <li>
+               <img src="{{this.photo}}"> <strong>{{this.name}}</strong>, [
+                {{#each this.scores}}
+                    {{this}}, 
+                    {{/each}}]
+            </li>
+
+        {{/each}}
+    </ol>
+    <a href="/">Home</a>

@@ -8,10 +8,10 @@ var fs = require("fs");
 var matcher = require("../logic/matcher.js");
 
 
-console.log(friends);
+// console.log(friends);
 router.get("/friends", (req, res) => {
     // res.send("home");
-    res.sendFile(path.join(__dirname, "../public/home.html"));
+    res.render("friends", {friends:friends});
 });
 
 router.post("/friends", formParser, (req, res) => {
@@ -35,7 +35,7 @@ router.post("/friends", formParser, (req, res) => {
         }
         console.log("Friends updated.");
         if(bestie === null){
-            res.send("You are the first Friend on the list");
+            res.render("first");
         }
         else {
                 res.render("results", bestie);

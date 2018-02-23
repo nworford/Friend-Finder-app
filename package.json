@@ -19,6 +19,7 @@
   "homepage": "https://github.com/nworford/friend-finder#readme",
   "dependencies": {
     "handlebars": "^4.0.11",
+    "heroku": "^0.2.0",
     "path": "^0.12.7"
   }
 }

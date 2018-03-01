@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/nworford/friend-finder#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
     "handlebars": "^4.0.11",
     "heroku": "^0.2.0",
     "path": "^0.12.7"
   }
-  
 }
